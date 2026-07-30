@@ -122,7 +122,7 @@ export default {
       this.game.teams[team].players = this.game.teams[team].players.filter(
         (obj) => {
           return obj.id !== playerId;
-        }
+        },
       );
     },
   },
@@ -130,6 +130,8 @@ export default {
 </script>
 
 <style scoped>
+@reference "../assets/global.css";
+
 #new-game {
   input[type="text"] {
     @apply p-0.5 border-b-2 border-blue outline-0 hover:border-cyan focus:border-cyan;

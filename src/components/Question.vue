@@ -95,6 +95,8 @@ export default {
 </script>
 
 <style scoped>
+@reference "../assets/global.css";
+
 #questions {
   #flash {
     font-size: 4em;

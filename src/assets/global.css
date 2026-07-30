@@ -1,6 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #ff5555;
+  --color-green: #50fa7b;
+  --color-blue: #6272a4;
+  --color-cyan: #8be9fd;
+  --color-yellow: #f1fa8c;
+  --color-purple: #bd93f9;
+  --color-pink: #ff79c6;
+  --color-orange: #ffb86c;
+  --color-light: #f8f8f2;
+  --color-dark: #282a36;
+  --color-darker: #282a36;
+}
 
 html {
   font-family: Montserrat, sans-serif;

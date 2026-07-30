@@ -54,11 +54,11 @@
 </template>
 
 <script>
-import NewGame from "./components/NewGame";
-import Question from "./components/Question";
-import Categories from "./components/Categories";
-import Debug from "./components/Debug";
-import Reset from "./components/Reset";
+import NewGame from "./components/NewGame.vue";
+import Question from "./components/Question.vue";
+import Categories from "./components/Categories.vue";
+import Debug from "./components/Debug.vue";
+import Reset from "./components/Reset.vue";
 
 export default {
   name: "App",
@@ -134,6 +134,8 @@ export default {
 </script>
 
 <style scoped>
+@reference "./assets/global.css";
+
 header {
   @apply bg-dark text-white shadow-lg py-2;
 }
